@@ -18,21 +18,25 @@ Nowadays as there are many Cafes are Getting opened , But Most of the Cafes are 
 
 
     if order_1 in menu:
-    order_total += menu[order_1]
-    print(f"{order_1} has been added to Your Cart")
+        order_total += menu[order_1]
+        print(f"{order_1} has been added to Your Cart")
 
     else:
-    print(f"{order_1} is not available yet")
+        print(f"{order_1} is not available yet")
 
     another_order = input("Do You want to add another item ? Yes / No=")
 
     if another_order =="Yes":
-    order_2 = input("Enter Your Second Order=")
-    if order_2 in menu:
-        order_total += menu[order_2]
-        print(f"{order_2} has been added to Your Cart")
+        order_2 = input("Enter Your Second Order=")
+        if order_2 in menu:
+            order_total += menu[order_2]
+            print(f"{order_2} has been added to Your Cart")
 
     else:
         print(f"{order_2} is not available yet")
 
     print(f"You have to Pay {order_total}rs for Your Orders")
+   
+
+    
+
