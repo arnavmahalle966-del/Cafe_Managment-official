@@ -35,4 +35,4 @@ Nowadays as there are many Cafes are Getting opened , But Most of the Cafes are 
     else:
         print(f"{order_2} is not available yet")
 
-print(f"You have to Pay {order_total}rs for Your Orders")
+    print(f"You have to Pay {order_total}rs for Your Orders")
